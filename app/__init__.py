@@ -1,7 +1,7 @@
 #app/__init__.py
 
-import os
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from report.settings import SS_BY_SECTION
 
 def create_app():
     # Create and configure the app
@@ -17,11 +17,16 @@ def create_app():
 
     @app.route("/calcart1/form")
     def calcart1_form():
-        return render_template("calcart1_form.html")
+        return render_template(
+            "calcart1_form.html",
+            sections=SS_BY_SECTION
+        )
 
-    @app.route("/calcart1/form/submit")
+    @app.route("/calcart1/form/submit", methods=['POST'])
     def calcart1_submit_form():
-        return
+        data = request.form.to_dict()
+        print(data)
+        return "Success"
 
     @app.route("/mycom")
     def mycom():

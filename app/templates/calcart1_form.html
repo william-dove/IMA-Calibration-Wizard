@@ -30,7 +30,7 @@
 
         <br><br>
 
-        <button onclick="showStep(2)">Next</button>
+        <button type="button" onclick="showStep(2)">Next</button>
 
     </div>
 
@@ -39,54 +39,26 @@
 
         <h2>Project Information</h2>
 
-        <div class="field">
-            <label for="company">Company</label>
-            <input type="text" id="company">
-        </div>
+        {% for field in sections.project_info.values() %}
 
         <div class="field">
-            <label for="project">Project</label>
-            <input type="text" id="project">
+            <label for="{{ field.key }}">
+                {{ field.label }}
+            </label>
+
+            <input
+                type="{{ field.input_type }}"
+                id="{{ field.key }}"
+                name="{{ field.key }}"
+                value="{{ field.default }}"
+            >
         </div>
 
-        <div class="field">
-            <label for="serviceNumber">Service Number</label>
-            <input type="text" id="serviceNumber">
-        </div>
-
-        <div class="field">
-            <label for="machine">Machine</label>
-            <input type="text" id="machine">
-        </div>
-
-        <div class="field">
-            <label for="location">Location</label>
-            <input type="text" id="location">
-        </div>
-
-        <div class="field">
-            <label for="date">Date</label>
-            <input type="date" id="date">
-        </div>
-
-        <div class="field">
-            <label for="calibrationType">Calibration Type</label>
-            <input type="text" id="calibrationType">
-        </div>
-
-        <div class="field">
-            <label for="procedure">Procedure</label>
-            <input type="text" id="procedure">
-        </div>
-
-        <div class="field">
-            <label for="calibration">Calibration</label>
-            <input type="text" id="calibration">
-        </div>
+        {% endfor %}
 
         <div class="button-row">
-            <button onclick="showStep(1)">Back</button>
-            <button onclick="showStep(3)">Next</button>
+            <button type="button" onclick="showStep(1)">Back</button>
+            <button type="button" onclick="showStep(3)">Next</button>
         </div>
 
     </div>
@@ -96,44 +68,26 @@
 
         <h2>Device Under Test Information</h2>
 
-        <div class="field">
-            <label for="deviceManufacturer">Manufacturer</label>
-            <input type="text" id="deviceManufacturer">
-        </div>
+        {% for field in sections.dut_info.values() %}
 
         <div class="field">
-            <label for="deviceModelNumber">Model Number</label>
-            <input type="text" id="deviceModelNumber">
+            <label for="{{ field.key }}">
+                {{ field.label }}
+            </label>
+
+            <input
+                type="{{ field.input_type }}"
+                id="{{ field.key }}"
+                name="{{ field.key }}"
+                value="{{ field.default }}"
+            >
         </div>
 
-        <div class="field">
-            <label for="deviceSerialNumber">Serial Number</label>
-            <input type="text" id="deviceSerialNumber">
-        </div>
-
-        <div class="field">
-            <label for="deviceTagIdNumber">Tag ID Number</label>
-            <input type="text" id="deviceTagIdNumber">
-        </div>
-
-        <div class="field">
-            <label for="deviceRange">Range</label>
-            <input type="text" id="deviceRange">
-        </div>
-
-        <div class="field">
-            <label for="deviceAccuracy">Accuracy</label>
-            <input type="text" id="deviceAccuracy">
-        </div>
-
-        <div class="field">
-            <label for="deviceOutputSignal">Output Signal</label>
-            <input type="text" id="deviceOutputSignal">
-        </div>
+        {% endfor %}
 
         <div class="button-row">
-            <button onclick="showStep(2)">Back</button>
-            <button onclick="showStep(4)">Next</button>
+            <button type="button" onclick="showStep(2)">Back</button>
+            <button type="button" onclick="showStep(4)">Next</button>
         </div>
 
     </div>
@@ -143,44 +97,26 @@
 
         <h2>Reference Standard Information</h2>
 
-        <div class="field">
-            <label for="standardManufacturer">Manufacturer</label>
-            <input type="text" id="standardManufacturer">
-        </div>
+        {% for field in sections.ref_info.values() %}
 
         <div class="field">
-            <label for="standardModelNumber">Model Number</label>
-            <input type="text" id="standardModelNumber">
+            <label for="{{ field.key }}">
+                {{ field.label }}
+            </label>
+
+            <input
+                type="{{ field.input_type }}"
+                id="{{ field.key }}"
+                name="{{ field.key }}"
+                value="{{ field.default }}"
+            >
         </div>
 
-        <div class="field">
-            <label for="standardSerialNumber">Serial Number</label>
-            <input type="text" id="standardSerialNumber">
-        </div>
-
-        <div class="field">
-            <label for="standardCalibrationDate">Calibration Date</label>
-            <input type="date" id="standardCalibrationDate">
-        </div>
-
-        <div class="field">
-            <label for="standardCalibrationDueDate">Calibration Due Date</label>
-            <input type="date" id="standardCalibrationDueDate">
-        </div>
-        
-        <div class="field">
-            <label for="standardAccuracy">Standard Accuracy</label>
-            <input type="text" id="standardAccuracy">
-        </div>
-
-        <div class="field">
-            <label for="standardAccuracyRatio">Accuracy Ratio</label>
-            <input type="text" id="standardAccuracyRatio">
-        </div>
+        {% endfor %}
 
         <div class="button-row">
-            <button onclick="showStep(3)">Back</button>
-            <button onclick="showStep(5)">Next</button>
+            <button type="button" onclick="showStep(3)">Back</button>
+            <button type="button" onclick="showStep(5)">Next</button>
         </div>
 
     </div>
@@ -189,7 +125,8 @@
     <div id="step5" class="step">
 
         <div class="button-row">
-            <button onclick="showStep(4)">Back</button>
+            <button type="button" onclick="showStep(4)">Back</button>
+                <button type="submit">Submit</button>
         </div>
 
     </div>
