@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IMA Calibration Wizard</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      h1 {
+        color: #d40000;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f7fa;
+        margin: 0;
+        padding: 20px;
+      }
+      input:not([type="checkbox"]) {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+      input[type="checkbox"] {
+        margin-right: 8px;
+      }
+      button {
+        background-color: #0078d4;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      button:hover {
+        background-color: #106ebe;
+      }
+      .wizard-container {
+        max-width: 700px;
+        margin: auto;
+        background: white;
+        padding: 24px;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header img {
+        height: 80px;
+        width: auto;
+        margin-bottom: 10px;
+      }
+      .progress {
+        text-align: center;
+        color: #666;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      .step {
+        display: none;
+        animation: fadeIn 0.25s ease;
+      }
+      .active {
+        display: block;
+      }
+      .field {
+        margin-bottom: 16px;
+      }
+      .field label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 6px;
+      }
+      .button-row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wizard-container">
+
+      <div class="header">
+        <img src="{{ url_for('static', filename='IMA.png') }}" alt="IMA Logo">
+        <h1>IMA Calibration Wizard</h1>
+      </div>
+
+      <div id="progress" class="progress">
+        Step 1 of 5
+      </div>
+
+
+      <!-- STEP 1 -->
+      <div id="step1" class="step active">
+        <h2>Pre-Calibration Checklist</h2>
+
+        <br>
+        <p>Before you begin the calibration prodecure, ensure the following steps have been completed:</p>
+        <ul>
+          <li>Step 1</li>
+          <li>Step 2</li>
+          <li>Step 3...</li>
+        </ul>
+        <br>
+
+        <label>
+          <input type="checkbox" id="prelimVerified">
+          The above steps have been completed.
+        </label>
+
+        <br><br>
+
+        <button onclick="showStep(2)">Next</button>
+      </div>
+
+      <!-- STEP 2 -->
+      <div id="step2" class="step">
+        <h2>Project Information</h2>
+
+        <!-- Instead of this:
+        <label>Company:</label>
+        <input type="text" id="company">
+
+        <br><br>
+        -->
+        <!--Do this-->
+        <div class="field">
+          <label for="company">Company</label>
+          <input type="text" id="company">
+        </div>
+
+        <div class="field">
+          <label for="project">Project</label>
+          <input type="text" id="project">
+        </div>
+
+        <div class="field">
+          <label for="serviceNumber">Service Number</label>
+          <input type="text" id="serviceNumber">
+        </div>
+
+        <div class="field">
+          <label for="machine">Machine</label>
+          <input type="text" id="machine">
+        </div>
+
+        <div class="field">
+          <label for="location">Location</label>
+          <input type="text" id="location">
+        </div>
+
+        <div class="field">
+          <label for="date">Date</label>
+          <input type="date" id="date">
+        </div>
+
+        <div class="field">
+          <label for="calibrationType">Calibration Type</label>
+          <input type="text" id="calibrationType">
+        </div>
+
+        <div class="field">
+          <label for="procedure">Procedure</label>
+          <input type="text" id="procedure">
+        </div>
+
+        <div class="field">
+          <label for="calibration">Calibration</label>
+          <input type="text" id="calibration">
+        </div>
+
+        <!--Instead of this:
+        <button onclick="showStep(1)">Back</button>
+        <button onclick="showStep(3)">Next</button>
+        -->
+
+        <!--Do this-->
+        <div class="button-row">
+          <button onclick="showStep(1)">Back</button>
+          <button onclick="showStep(3)">Next</button>
+        </div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div id="step3" class="step">
+        <h2>Device Under Test Information</h2>
+
+        <div class="field">
+          <label for="deviceManufacturer">Manufacturer</label>
+          <input type="text" id="deviceManufacturer">
+        </div>
+
+        <div class="field">
+          <label for="deviceModelNumber">Model Number</label>
+          <input type="text" id="deviceModelNumber">
+        </div>
+
+        <div class="field">
+          <label for="deviceSerialNumber">Serial Number</label>
+          <input type="text" id="deviceSerialNumber">
+        </div>
+
+        <div class="field">
+          <label for="deviceTagIdNumber">Tag ID Number</label>
+          <input type="text" id="deviceTagIdNumber">
+        </div>
+
+        <div class="field">
+          <label for="deviceRange">Range</label>
+          <input type="text" id="deviceRange">
+        </div>
+
+        <div class="field">
+          <label for="deviceAccuracy">Accuracy</label>
+          <input type="text" id="deviceAccuracy">
+        </div>
+
+        <div class="field">
+          <label for="deviceOutputSignal">Output Signal</label>
+          <input type="text" id="deviceOutputSignal">
+        </div>
+
+        <div class="button-row">
+          <button onclick="showStep(2)">Back</button>
+          <button onclick="showStep(4)">Next</button>
+        </div>
+      </div>
+
+      <!-- STEP 4 -->
+      <div id="step4" class="step">
+        <h2>Reference Standard Information</h2>
+
+        <div class="field">
+          <label for="standardManufacturer">Manufacturer</label>
+          <input type="text" id="standardManufacturer">
+        </div>
+
+        <div class="field">
+          <label for="standardModelNumber">Model Number</label>
+          <input type="text" id="standardModelNumber">
+        </div>
+
+        <div class="field">
+          <label for="standardSerialNumber">Serial Number</label>
+          <input type="text" id="standardSerialNumber">
+        </div>
+
+        <div class="field">
+          <label for="standardCalibrationDate">Calibration Date</label>
+          <input type="date" id="standardCalibrationDate">
+        </div>
+
+        <div class="field">
+          <label for="standardCalibrationDueDate">Calibration Due Date</label>
+          <input type="date" id="standardCalibrationDueDate">
+        </div>
+        
+        <div class="field">
+          <label for="standardAccuracy">Standard Accuracy</label>
+          <input type="text" id="standardAccuracy">
+        </div>
+
+        <div class="field">
+          <label for="standardAccuracyRatio">Accuracy Ratio</label>
+          <input type="text" id="standardAccuracyRatio">
+        </div>
+
+        <div class="button-row">
+          <button onclick="showStep(3)">Back</button>
+          <button onclick="showStep(5)">Next</button>
+        </div>
+      </div>
+
+      <!-- REVIEW -->
+      <div id="step5" class="step">
+        <div class="button-row">
+          <button onclick="showStep(4)">Back</button>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+      /**
+       * This function is called when clicking a button to bring the user 
+       * to the next "step" or page in the procedure.
+       * If all fields are verified, it will call showStep() to bring
+       * the user to the desired step.
+       * @param stepNumber: the number of the step/page to display.
+       * 
+       * !! Currently not generalized to all fields/steps.
+       */
+      function goToStep(stepNumber) {
+        if (!document.getElementById("company").value) {
+          alert("Please enter a company.");
+          return;
+        }
+        showStep(stepNumber);
+      }
+
+      /**
+       * The current function to bring user to the next step.
+       * There is no validation, but it works for all steps.
+       * @param stepNumber: the number of the step/page to display.
+       */
+      function showStep(stepNumber) {
+
+        document.querySelectorAll('.step').forEach(step => {
+          step.classList.remove('active');
+        });
+
+        document.getElementById('step' + stepNumber)
+          .classList.add('active');
+
+        document.getElementById("progress").innerText =
+          `Step ${stepNumber} of 5`;
+      }
+    
+    </script>
+  </body>
+</html>
