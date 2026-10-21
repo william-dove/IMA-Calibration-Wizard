@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IMA Calibration Wizard</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">   
+  </head>
+
+  <body>
+
+    <div class="wizard-container">
+
+      <div class="header">
+        <a href="{{ url_for('home') }}">
+          <img src="{{ url_for('static', filename='images/IMA.png') }}" alt="IMA Logo">
+        </a>
+        <h1>IMA Calibration Wizard</h1>
+      </div>
+
+      {% block content %}
+      {% endblock %}
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+  </body>
+
+</html>
