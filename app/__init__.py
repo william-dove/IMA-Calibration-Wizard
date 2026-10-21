@@ -19,7 +19,7 @@ def create_app():
     def calcart1_form():
         return render_template("calcart1_form.html")
 
-    @app.route("calcart1/form/submit")
+    @app.route("/calcart1/form/submit")
     def calcart1_submit_form():
         return
 
