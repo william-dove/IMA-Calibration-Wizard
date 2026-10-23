@@ -3,8 +3,63 @@
 
 <h2>Cal Cart Home Page</h2>
 
-<a href="{{ url_for('calcart1_form') }}">
-  <button class="full-btn">Report Information</button>
-</a>
+
+<div class="section-card">
+
+    <h3>
+        Report Information -
+        <span class="{{ 'complete-text' if report_complete else 'incomplete-text' }}">
+            {{ 'Complete' if report_complete else 'Incomplete' }}
+        </span>
+    </h3>
+
+    <p>Create a new report or load an existing report configuration.</p>
+
+    <div class="choice-buttons">
+
+        <form method="POST"
+              action="{{ url_for('calcart1_load_form') }}"
+              enctype="multipart/form-data">
+
+            <input type="file"
+                   name="report_file"
+                   accept=".json">
+
+            <button type="submit" class="choice-btn">
+                Load Existing Report
+            </button>
+
+        </form>
+
+        <div class="or-divider">OR</div>
+
+        <a href="{{ url_for('calcart1_form') }}">
+            <button type="button" class="choice-btn">
+                Create New Report
+            </button>
+        </a>
+
+    </div>
+</div>
+
+
+<div class="section-card">
+
+    <h3>
+        Calibration -
+        <span class="{{ 'complete-text' if calibration_complete else 'incomplete-text' }}">
+            {{ 'Complete' if calibration_complete else 'Incomplete' }}
+        </span>
+    </h3>
+
+    <p>Perform the calibration procedure and record results.</p>
+
+    <a href="{{ url_for('calcart1_test') }}">
+        <button type="button" class="full-btn">
+            Begin Calibration
+        </button>
+    </a>
+
+</div>
 
 {% endblock %}

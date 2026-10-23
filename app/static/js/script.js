@@ -32,3 +32,8 @@ function showStep(stepNumber) {
     document.getElementById("progress").innerText =
         `Step ${stepNumber} of 5`;
 }
+
+function allowHome() {
+    document.getElementById("home_link").removeAttribute("disabled")
+    document.getElementById("home_btn").removeAttribute("disabled")
+}

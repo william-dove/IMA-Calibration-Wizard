@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 20px;
 }
+
 input:not([type="checkbox"]) {
     width: 100%;
     box-sizing: border-box;
@@ -23,6 +24,7 @@ input:not([type="checkbox"]) {
 input[type="checkbox"] {
     margin-right: 8px;
 }
+
 button {
     background-color: #0078d4;
     color: white;
@@ -35,18 +37,74 @@ button {
 button:hover {
     background-color: #106ebe;
 }
-.step {
-    display: none;
-    animation: fadeIn 0.25s ease;
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
 }
-    .active {
-    display: block;
+
+.section-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+.complete-text {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.incomplete-text {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.choice-buttons {
+    margin-top: 15px;
+}
+
+.choice-btn {
+    width: 100%;
+}
+
+.or-divider {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    margin: 15px 0;
+}
+
 .full-btn {
     display: block;
     width: 100%; /* Optional: makes them full width */
     margin-bottom: 10px; /* Optional: adds spacing */ 
 }
+
+
+.status {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.incomplete {
+    background-color: #ccc;
+}
+.complete {
+    background-color: #28a745;
+}
+
+.step {
+    display: none;
+    animation: fadeIn 0.25s ease;
+}
+.active {
+    display: block;
+}
+
 .wizard-container {
     max-width: 700px;
     margin: auto;
@@ -78,11 +136,13 @@ button:hover {
     font-weight: bold;
     margin-bottom: 6px;
 }
+
 .button-row {
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
