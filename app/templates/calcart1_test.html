@@ -6,25 +6,22 @@
 
     <h2>Pre-Calibration Checklist</h2>
 
-    <br>
-
     <p>Before you begin the calibration prodecure, ensure the following steps have been completed:</p>
+
     <ul>
         <li>Step 1</li>
         <li>Step 2</li>
         <li>Step 3...</li>
     </ul>
 
-    <br>
-
     <label>
         <input type="checkbox" id="prelimVerified">
         The above steps have been completed.
     </label>
-
-    <br>
     
 </div>
+
+<br><br>
 
 <!-- Add Setpoint Data -->
 <h2>Add Setpoint Data</h2>
@@ -33,7 +30,19 @@
 
     <div id="setpoint_container">
 
-        <!--This section cart will be repeated for all setpoints-->
+        <!--Standard offset (same for all setpoints)-->
+        <div class="field">
+            <label>Standard Offset</label>
+            <input
+                type="number"
+                step="any"
+                name="ref_offset"
+                value="0.0"
+            >
+        </div>
+
+
+        <!--This section card will be repeated for all setpoints-->
         <div class="section-card">
             <h3>Setpoint 1</h3>
 
@@ -42,7 +51,7 @@
                 <input
                     type="number"
                     step="any"
-                    name="setpoint[]"
+                    name="setpoint[1]"
                 >
             </div>
 
@@ -51,7 +60,7 @@
                 <input
                     type="number"
                     step="any"
-                    name="standard[]"
+                    name="standard[1]"
                 >
             </div>
 
@@ -59,7 +68,7 @@
                 <label>Instrument</label>
                 <input
                     type="text"
-                    name="instrument[]"
+                    name="instrument[1]"
                 >    
             </div>
         </div>

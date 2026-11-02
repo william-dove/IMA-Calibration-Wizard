@@ -63,17 +63,17 @@ function addSetpoint() {
 
         <div class="field">
             <label>Setpoint</label>
-            <input type="number" step="any" name="setpoint[]">
+            <input type="number" step="any" name="setpoint[${setpointCount}]">
         </div>
 
         <div class="field">
             <label>Standard</label>
-            <input type="number" step="any" name="standard[]">
+            <input type="number" step="any" name="standard[${setpointCount}]">
         </div>
 
         <div class="field">
             <label>Instrument</label>
-            <input type="text" name="instrument[]">
+            <input type="text" name="instrument[${setpointCount}]">
         </div>
     `;
 

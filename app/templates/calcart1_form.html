@@ -124,12 +124,22 @@
     <!-- REVIEW -->
     <div id="step5" class="step">
 
+        <div class="field">
+            <label for="report_name">
+                Name this report: 
+            </label>
+
+            <input
+                type="text"
+                id="report_name"
+                name="report_name"
+            >
+            .json
+        </div>
+
         <div class="button-row">
             <button type="button" onclick="showStep(4)">Back</button>
-            <button type="submit" onclick="allowHome()">Save</button>
-            <a id="home_link" href="{{ url_for('calcart1') }}">
-                <button type="button" id="home_btn" disabled>Home</button>
-            </a>
+            <button type="submit">Save</button>
         </div>
 
     </div>

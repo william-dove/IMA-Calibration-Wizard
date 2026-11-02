@@ -4,6 +4,7 @@
 <h2>Cal Cart Home Page</h2>
 
 
+<!--Report Info-->
 <div class="section-card">
 
     <h3>
@@ -13,19 +14,20 @@
         </span>
     </h3>
 
-    <p>Create a new report or load an existing report configuration.</p>
-
     <div class="choice-buttons">
 
-        <form method="POST"
-              action="{{ url_for('calcart1_load_form') }}"
-              enctype="multipart/form-data">
+        <form method="POST" action="{{ url_for('calcart1_load_form') }}">
 
-            <input 
-                type="file"
-                name="report_file"
-                id="report_file"
-                accept=".json">
+            <label for="report_name">Choose an existing report:</label>
+            <select id="report_name" name="report_name">
+
+                {% for name in report_names %}
+
+                <option value="{{ name }}">{{ name }}</option>
+
+                {% endfor %}
+
+            </select>   
 
             <button type="submit" id="load_btn" class="choice-btn">
                 Load Existing Report
@@ -45,6 +47,7 @@
 </div>
 
 
+<!--Calibration Sequence-->
 <div class="section-card">
 
     <h3>
@@ -64,10 +67,25 @@
 
 </div>
 
-<script>
-document.getElementById("report_file").addEventListener("change", function() {
-    document.getElementById("load_btn").removeAttribute("disabled");
-});
-</script>
+
+<!--Generating the Report-->
+<div class="section-card">
+
+    <h3>Generate Report</h3>
+
+    <a href="{{ url_for('calcart1_generate_report') }}">
+        <button 
+            type="button" 
+            class="full-btn"
+            {% if not (session['report_complete'] and session['calibration_complete']) %}
+                disabled
+            {% endif %}    
+        >
+            Generate Report
+        </button>
+    </a>
+
+</div>
+
 
 {% endblock %}

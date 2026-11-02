@@ -13,9 +13,12 @@
     <div class="wizard-container">
 
       <div class="header">
+        <!-- Removing the home link for now to avoid the user returning home and losing progress.
         <a href="{{ url_for('home') }}">
           <img src="{{ url_for('static', filename='images/IMA.png') }}" alt="IMA Logo">
         </a>
+        -->
+        <img src="{{ url_for('static', filename='images/IMA.png') }}" alt="IMA Logo">
         <h1>IMA Calibration Wizard</h1>
       </div>
 
