@@ -7,18 +7,27 @@ from report.settings import SS_BY_SECTION
 def create_app():
     # Create and configure the app
     app = Flask(__name__)
+
+    # Initialize session variables
     app.secret_key = 'dev'
+
+    @app.before_request
+    def initialize_session():
+        session.setdefault("report_complete", False)
+        session.setdefault('calibration_complete', False)
+
+
+    # Define routes
 
     @app.route("/")
     def home():
+        session.clear() # Clears the session when the user leaves a specific program (e.g. calcart, mycom)
         return render_template("index.html")
 
     @app.route("/calcart1")
     def calcart1():
         return render_template(
             "calcart1.html",
-            report_complete=False,
-            calibration_complete=False
         )
 
     @app.route("/calcart1/form")
@@ -26,13 +35,15 @@ def create_app():
         return render_template(
             "calcart1_form.html",
             sections=SS_BY_SECTION,
-            saved=session.get("saved", False)
         )
 
     @app.route("/calcart1/form/load", methods=['POST'])
     def calcart1_load_form():
         file = request.files["report_file"]
         print(file.filename)
+
+        session['report_complete'] = True
+
         return redirect(url_for("calcart1"))
 
     @app.route("/calcart1/form/submit", methods=['POST'])
@@ -40,7 +51,7 @@ def create_app():
         data = request.form.to_dict()
         json_data = json.dumps(data, indent=4)
 
-        session['saved'] = True
+        session['report_complete'] = True
 
         return Response(
             json_data,
@@ -53,7 +64,16 @@ def create_app():
 
     @app.route("/calcart1/test")
     def calcart1_test():
-        return "Test beginning"
+        return render_template('calcart1_test.html')
+
+    @app.route("/calcart1/test/submit", methods=['POST'])
+    def calcart1_submit_test():
+        data = request.form.to_dict()
+        print(data)
+
+        session['calibration_complete'] = True
+        
+        return redirect(url_for("calcart1"))
 
     @app.route("/mycom")
     def mycom():

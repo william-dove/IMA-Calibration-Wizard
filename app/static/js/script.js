@@ -33,7 +33,49 @@ function showStep(stepNumber) {
         `Step ${stepNumber} of 5`;
 }
 
+/**
+ * This function is called once the user saves the report information
+ * from /calcart1/form/ to a .json file, allowing the user to return
+ * home.
+ */
 function allowHome() {
     document.getElementById("home_link").removeAttribute("disabled")
     document.getElementById("home_btn").removeAttribute("disabled")
+}
+
+
+// Used by /calcart1/test/
+let setpointCount = 1;
+/**
+ * This function is used to add new setpoints in /calcart1/test/
+ */
+function addSetpoint() {
+
+    setpointCount++;
+
+    const container = document.getElementById("setpoint_container");
+
+    const newCard = document.createElement("div");
+    newCard.className = "section-card";
+
+    newCard.innerHTML = `
+        <h3>Setpoint ${setpointCount}</h3>
+
+        <div class="field">
+            <label>Setpoint</label>
+            <input type="number" step="any" name="setpoint[]">
+        </div>
+
+        <div class="field">
+            <label>Standard</label>
+            <input type="number" step="any" name="standard[]">
+        </div>
+
+        <div class="field">
+            <label>Instrument</label>
+            <input type="text" name="instrument[]">
+        </div>
+    `;
+
+    container.appendChild(newCard);
 }

@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Preliminary Checklist -->
+<div id="step1" class="step active">
+
+    <h2>Pre-Calibration Checklist</h2>
+
+    <br>
+
+    <p>Before you begin the calibration prodecure, ensure the following steps have been completed:</p>
+    <ul>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3...</li>
+    </ul>
+
+    <br>
+
+    <label>
+        <input type="checkbox" id="prelimVerified">
+        The above steps have been completed.
+    </label>
+
+    <br>
+    
+</div>
+
+<!-- Add Setpoint Data -->
+<h2>Add Setpoint Data</h2>
+
+<form method="POST" action="{{ url_for('calcart1_submit_test') }}">
+
+    <div id="setpoint_container">
+
+        <!--This section cart will be repeated for all setpoints-->
+        <div class="section-card">
+            <h3>Setpoint 1</h3>
+
+            <div class="field">
+                <label>Setpoint</label>
+                <input
+                    type="number"
+                    step="any"
+                    name="setpoint[]"
+                >
+            </div>
+
+            <div class="field">
+                <label>Standard</label>
+                <input
+                    type="number"
+                    step="any"
+                    name="standard[]"
+                >
+            </div>
+
+            <div class="field">
+                <label>Instrument</label>
+                <input
+                    type="text"
+                    name="instrument[]"
+                >    
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <button type="button" id="add_setpoint_btn" onclick="addSetpoint()">
+        Add Setpoint
+    </button>
+
+    <button type="submit">
+        Submit
+    </button>
+
+</form>
+
+{% endblock %}

@@ -9,7 +9,7 @@
     <h3>
         Report Information -
         <span class="{{ 'complete-text' if report_complete else 'incomplete-text' }}">
-            {{ 'Complete' if report_complete else 'Incomplete' }}
+            {{ 'Complete' if session['report_complete'] else 'Incomplete' }}
         </span>
     </h3>
 
@@ -21,11 +21,13 @@
               action="{{ url_for('calcart1_load_form') }}"
               enctype="multipart/form-data">
 
-            <input type="file"
-                   name="report_file"
-                   accept=".json">
+            <input 
+                type="file"
+                name="report_file"
+                id="report_file"
+                accept=".json">
 
-            <button type="submit" class="choice-btn">
+            <button type="submit" id="load_btn" class="choice-btn">
                 Load Existing Report
             </button>
 
@@ -48,7 +50,7 @@
     <h3>
         Calibration -
         <span class="{{ 'complete-text' if calibration_complete else 'incomplete-text' }}">
-            {{ 'Complete' if calibration_complete else 'Incomplete' }}
+            {{ 'Complete' if session['calibration_complete'] else 'Incomplete' }}
         </span>
     </h3>
 
@@ -61,5 +63,11 @@
     </a>
 
 </div>
+
+<script>
+document.getElementById("report_file").addEventListener("change", function() {
+    document.getElementById("load_btn").removeAttribute("disabled");
+});
+</script>
 
 {% endblock %}
