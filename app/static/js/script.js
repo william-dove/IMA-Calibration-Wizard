@@ -15,6 +15,7 @@ function goToStep(stepNumber) {
     showStep(stepNumber);
 }
 
+
 /**
  * The current function to bring user to the next step.
  * There is no validation, but it works for all steps.
@@ -33,18 +34,8 @@ function showStep(stepNumber) {
         `Step ${stepNumber} of 5`;
 }
 
-/**
- * This function is called once the user saves the report information
- * from /calcart1/form/ to a .json file, allowing the user to return
- * home.
- */
-function allowHome() {
-    document.getElementById("home_link").removeAttribute("disabled")
-    document.getElementById("home_btn").removeAttribute("disabled")
-}
 
-
-// Used by /calcart1/test/
+// Used by addSetpoint() in calcart1_test.html //
 let setpointCount = 1;
 /**
  * This function is used to add new setpoints in /calcart1/test/
@@ -79,3 +70,30 @@ function addSetpoint() {
 
     container.appendChild(newCard);
 }
+
+
+/**
+ * Opens a file dialog popup for the user to select a save directory for the results.
+ * Asynchronously calls the .save_file method from the pywebview window's javascript API.
+ * This method returns the directory (a string) as a promise in javascript, which is stored
+ * in `const directory`. Then the input box from the html is updated accordingly.
+ */
+async function chooseFolder() {
+
+    const directory = await window.pywebview.api.choose_folder();
+
+    if (directory) {
+
+        document.getElementById("save_directory").value = directory;
+
+        const status = await window.pywebview.api.get_status();
+
+        document.getElementById("report_btn").disabled = 
+            !(status.report_complete && status.calibration_complete);
+    }
+    
+}
+
+/**
+ * Whenever one of the three steps towards completing 
+ */

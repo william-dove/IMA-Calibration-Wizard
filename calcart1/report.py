@@ -4,7 +4,7 @@ import os
 from calcart1.settings import SETTINGS
 
 
-def generate_report(report_dict, calibration_dict):
+def generate_report(save_dir, ROOT_DIR, report_dict, calibration_dict):
     '''
     Creates an Excel report using xlwings. The directory where the Excel report is saved will be 
     `calcart1/reports/name/`, where name is the name of the report as given in 
@@ -14,14 +14,16 @@ def generate_report(report_dict, calibration_dict):
     :param calibration_dict: the `session['calibration'] dict from Flask app
     '''
 
+    # Make a save directory/filename based on the user-chosen directory
     name = report_dict['report_name']
-    save_dir = f'calcart1/reports/{name}/'
     os.makedirs(save_dir, exist_ok=True)
     save_path = os.path.join(save_dir, f'{name}.xlsx')
 
+    # Define the template path via the constant system path RESOURCE_DIR.
+    template_dir = ROOT_DIR/'calcart1'/'template.xltx'
 
     with xw.App(visible=False) as xwa:
-        wb = xwa.books.open('calcart1/template.xltx')
+        wb = xwa.books.open(str(template_dir))
         ws = wb.sheets['Sheet1']
 
         # Fill in header info

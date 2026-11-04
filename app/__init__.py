@@ -5,7 +5,7 @@ import json
 from calcart1.settings import SS_BY_SECTION
 from calcart1.report import generate_report
 
-def create_app(report_names):
+def create_app(api, ROOT_DIR, report_names):
     # Create and configure the app
     app = Flask(__name__)
 
@@ -16,7 +16,7 @@ def create_app(report_names):
     def initialize_session():
         session.setdefault("report_complete", False)
         session.setdefault('calibration_complete', False)
-        session.setdefault('repor_dict', {})
+        session.setdefault('report_dict', {})
         session.setdefault('calibration_dict', {})
 
 
@@ -62,9 +62,10 @@ def create_app(report_names):
         print(name)
         print(data)
 
-        # Update the session
+        # Update the session/api
         session['report_dict'] = data
         session['report_complete'] = True
+        api.report_complete = True
 
         return redirect(url_for("calcart1"))
 
@@ -93,11 +94,13 @@ def create_app(report_names):
 
         # Add the filename to report_names.json, save the report.
         report_names.append(name)
-        with open('calcart1/report_names.json', 'w') as file: # Use the WORKING DIRECTORY as the base folder (i.e., where main.py is located since this is where we run the script)
+        report_names_dir = ROOT_DIR/'calcart1'/'report_names.json'
+        with report_names_dir.open('w') as file: 
             json.dump(report_names, file, indent=4)
 
         filename = f'{name}.json'
-        with open(f'calcart1/reports/{filename}', 'w') as file:
+        report_file_dir = ROOT_DIR/'calcart1'/'reports'/filename
+        with report_file_dir.open('w') as file:
             json.dump(data, file, indent=4)
 
         # Debug
@@ -107,6 +110,7 @@ def create_app(report_names):
         # Update the session
         session['report_dict'] = data
         session['report_complete'] = True
+        api.report_complete = True
 
         return redirect(url_for("calcart1"))
 
@@ -128,6 +132,7 @@ def create_app(report_names):
         # Update the session
         session['calibration_dict'] = data
         session['calibration_complete'] = True
+        api.calibration_complete = True
         
         return redirect(url_for("calcart1"))
 
@@ -138,6 +143,8 @@ def create_app(report_names):
     def calcart1_generate_report():
 
         generate_report(
+            api.save_directory,
+            ROOT_DIR,
             session['report_dict'],
             session['calibration_dict']
         )

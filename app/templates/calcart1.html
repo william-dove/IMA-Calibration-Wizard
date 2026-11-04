@@ -73,13 +73,28 @@
 
     <h3>Generate Report</h3>
 
+    <p>Current save directory:</p>
+    
+    <input type="text" id="save_directory" readonly>
+
+    <p>Choose a save path/folder to save the results in by clicking the button below.</p>
+
+    <button 
+        onclick="chooseFolder()" 
+        class="full-btn"
+        {% if not (session['report_complete'] and session['calibration_complete']) %}
+            disabled
+        {% endif %}    
+    >
+        Choose Directory
+    </button>
+
     <a href="{{ url_for('calcart1_generate_report') }}">
         <button 
             type="button" 
             class="full-btn"
-            {% if not (session['report_complete'] and session['calibration_complete']) %}
-                disabled
-            {% endif %}    
+            id="report_btn"
+            disabled
         >
             Generate Report
         </button>

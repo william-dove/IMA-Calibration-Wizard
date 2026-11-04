@@ -1,0 +1,1125 @@
+('C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+ 'Wizard\\build\\IMA_Calibration_Wizard\\IMA_Calibration_Wizard.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\build\\IMA_Calibration_Wizard\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\build\\IMA_Calibration_Wizard\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\build\\IMA_Calibration_Wizard\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\build\\IMA_Calibration_Wizard\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\build\\IMA_Calibration_Wizard\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\build\\IMA_Calibration_Wizard\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
+  ('pyi_rth_pythoncom',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pythoncom.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\main.py',
+   'PYSOURCE'),
+  ('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.Core.dll',
+   'BINARY'),
+  ('webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
+   'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x64.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
+   'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x86.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\Python.Runtime.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.dll',
+   'BINARY'),
+  ('python313.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\python313.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes313.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll',
+   'BINARY'),
+  ('pywin32_system32\\pythoncom313.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywin32_system32\\pythoncom313.dll',
+   'BINARY'),
+  ('clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
+   'BINARY'),
+  ('clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('xlwings\\xlwingslib.cp313-win_amd64.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\xlwingslib.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp313-win_amd64.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\markupsafe\\_speedups.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('pythonwin\\win32ui.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('win32\\win32event.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\win32\\win32event.pyd',
+   'EXTENSION'),
+  ('win32\\win32trace.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('win32\\_win32sysloader.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('win32\\win32process.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\win32\\win32process.pyd',
+   'EXTENSION'),
+  ('win32\\win32gui.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\win32\\win32gui.pyd',
+   'EXTENSION'),
+  ('_cffi_backend.cp313-win_amd64.pyd',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\_cffi_backend.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('zlib.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\zlib.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libmpdec-4.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\libmpdec-4.dll',
+   'BINARY'),
+  ('libcrypto-3-x64.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\libcrypto-3-x64.dll',
+   'BINARY'),
+  ('liblzma.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\liblzma.dll',
+   'BINARY'),
+  ('LIBBZ2.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\LIBBZ2.dll',
+   'BINARY'),
+  ('libssl-3-x64.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\libssl-3-x64.dll',
+   'BINARY'),
+  ('ffi.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\ffi.dll',
+   'BINARY'),
+  ('libexpat.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\libexpat.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('mfc140u.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\mfc140u.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\sqlite3.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-crt-multibyte-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\Library\\bin\\api-ms-win-crt-multibyte-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Users\\dovew\\AppData\\Local\\anaconda3\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('app\\static\\css\\style.css',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\static\\css\\style.css',
+   'DATA'),
+  ('app\\static\\images\\IMA.png',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\static\\images\\IMA.png',
+   'DATA'),
+  ('app\\static\\js\\script.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\static\\js\\script.js',
+   'DATA'),
+  ('app\\templates\\base.html',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\templates\\base.html',
+   'DATA'),
+  ('app\\templates\\calcart1.html',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\templates\\calcart1.html',
+   'DATA'),
+  ('app\\templates\\calcart1_form.html',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\templates\\calcart1_form.html',
+   'DATA'),
+  ('app\\templates\\calcart1_test.html',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\templates\\calcart1_test.html',
+   'DATA'),
+  ('app\\templates\\index.html',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\templates\\index.html',
+   'DATA'),
+  ('app\\templates\\mycom.html',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\app\\templates\\mycom.html',
+   'DATA'),
+  ('calcart1\\report_names.json',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\calcart1\\report_names.json',
+   'DATA'),
+  ('calcart1\\reports\\Sample Report 1.json',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\calcart1\\reports\\Sample Report 1.json',
+   'DATA'),
+  ('calcart1\\reports\\Sample Report 1\\Sample Report 1.xlsx',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\calcart1\\reports\\Sample Report 1\\Sample Report 1.xlsx',
+   'DATA'),
+  ('calcart1\\reports\\www (1).json',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\calcart1\\reports\\www (1).json',
+   'DATA'),
+  ('calcart1\\reports\\www.json',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\calcart1\\reports\\www.json',
+   'DATA'),
+  ('calcart1\\template.xltx',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\calcart1\\template.xltx',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\METADATA',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\RECORD',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\REQUESTED',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\WHEEL',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\entry_points.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('pywebview-6.2.1.dist-info\\top_level.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pywebview-6.2.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('webview\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\__init__.py',
+   'DATA'),
+  ('webview\\__pyinstaller\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\__pyinstaller\\__init__.py',
+   'DATA'),
+  ('webview\\__pyinstaller\\hook-webview.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\__pyinstaller\\hook-webview.py',
+   'DATA'),
+  ('webview\\_version.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\_version.py',
+   'DATA'),
+  ('webview\\dom\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\dom\\__init__.py',
+   'DATA'),
+  ('webview\\dom\\classlist.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\dom\\classlist.py',
+   'DATA'),
+  ('webview\\dom\\dom.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\dom\\dom.py',
+   'DATA'),
+  ('webview\\dom\\element.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\dom\\element.py',
+   'DATA'),
+  ('webview\\dom\\event.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\dom\\event.py',
+   'DATA'),
+  ('webview\\dom\\propsdict.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\dom\\propsdict.py',
+   'DATA'),
+  ('webview\\errors.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\errors.py',
+   'DATA'),
+  ('webview\\event.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\event.py',
+   'DATA'),
+  ('webview\\guilib.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\guilib.py',
+   'DATA'),
+  ('webview\\http.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\http.py',
+   'DATA'),
+  ('webview\\js\\api.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
+   'DATA'),
+  ('webview\\js\\customize.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
+   'DATA'),
+  ('webview\\js\\finish.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
+   'DATA'),
+  ('webview\\js\\lib\\dom_json.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\js\\lib\\dom_json.js',
+   'DATA'),
+  ('webview\\js\\lib\\polyfill.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
+   'DATA'),
+  ('webview\\js\\state.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
+   'DATA'),
+  ('webview\\lib\\pywebview-android.jar',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
+   'DATA'),
+  ('webview\\localization.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\localization.py',
+   'DATA'),
+  ('webview\\menu.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\menu.py',
+   'DATA'),
+  ('webview\\models.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\models.py',
+   'DATA'),
+  ('webview\\platforms\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\__init__.py',
+   'DATA'),
+  ('webview\\platforms\\android\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\__init__.py',
+   'DATA'),
+  ('webview\\platforms\\android\\app.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\app.py',
+   'DATA'),
+  ('webview\\platforms\\android\\base.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\base.py',
+   'DATA'),
+  ('webview\\platforms\\android\\event.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\event.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jclass\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jclass\\__init__.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jclass\\app.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jclass\\app.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jclass\\content.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jclass\\content.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jclass\\net.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jclass\\net.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jclass\\os.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jclass\\os.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jclass\\view.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jclass\\view.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jclass\\webkit.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jclass\\webkit.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jinterface\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jinterface\\__init__.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jinterface\\pywebview.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jinterface\\pywebview.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jinterface\\view.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jinterface\\view.py',
+   'DATA'),
+  ('webview\\platforms\\android\\jinterface\\webkit.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\android\\jinterface\\webkit.py',
+   'DATA'),
+  ('webview\\platforms\\cef.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\cef.py',
+   'DATA'),
+  ('webview\\platforms\\cocoa.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\cocoa.py',
+   'DATA'),
+  ('webview\\platforms\\edgechromium.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\edgechromium.py',
+   'DATA'),
+  ('webview\\platforms\\gtk.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\gtk.py',
+   'DATA'),
+  ('webview\\platforms\\mshtml.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\mshtml.py',
+   'DATA'),
+  ('webview\\platforms\\qt.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\qt.py',
+   'DATA'),
+  ('webview\\platforms\\win32.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\win32.py',
+   'DATA'),
+  ('webview\\platforms\\winforms.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\platforms\\winforms.py',
+   'DATA'),
+  ('webview\\py.typed',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\py.typed',
+   'DATA'),
+  ('webview\\screen.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\screen.py',
+   'DATA'),
+  ('webview\\state.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\state.py',
+   'DATA'),
+  ('webview\\util.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\util.py',
+   'DATA'),
+  ('webview\\window.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\webview\\window.py',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\INSTALLER',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\METADATA',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\RECORD',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\REQUESTED',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\REQUESTED',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\WHEEL',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\entry_points.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\entry_points.txt',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\licenses\\LICENSE_PRO.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\licenses\\LICENSE_PRO.txt',
+   'DATA'),
+  ('xlwings-0.37.8.dist-info\\top_level.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings-0.37.8.dist-info\\top_level.txt',
+   'DATA'),
+  ('xlwings\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\__init__.py',
+   'DATA'),
+  ('xlwings\\_names.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\_names.py',
+   'DATA'),
+  ('xlwings\\_types.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\_types.py',
+   'DATA'),
+  ('xlwings\\_win32patch.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\_win32patch.py',
+   'DATA'),
+  ('xlwings\\_xlmac.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\_xlmac.py',
+   'DATA'),
+  ('xlwings\\_xlwindows.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\_xlwindows.py',
+   'DATA'),
+  ('xlwings\\addin\\Dictionary.cls',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\Dictionary.cls',
+   'DATA'),
+  ('xlwings\\addin\\IWebAuthenticator.cls',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\IWebAuthenticator.cls',
+   'DATA'),
+  ('xlwings\\addin\\Remote.bas',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\Remote.bas',
+   'DATA'),
+  ('xlwings\\addin\\WebClient.cls',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\WebClient.cls',
+   'DATA'),
+  ('xlwings\\addin\\WebHelpers.bas',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\WebHelpers.bas',
+   'DATA'),
+  ('xlwings\\addin\\WebRequest.cls',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\WebRequest.cls',
+   'DATA'),
+  ('xlwings\\addin\\WebResponse.cls',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\WebResponse.cls',
+   'DATA'),
+  ('xlwings\\addin\\xlwings.xlam',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\addin\\xlwings.xlam',
+   'DATA'),
+  ('xlwings\\base_classes.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\base_classes.py',
+   'DATA'),
+  ('xlwings\\cli.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\cli.py',
+   'DATA'),
+  ('xlwings\\com_server.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\com_server.py',
+   'DATA'),
+  ('xlwings\\constants.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\constants.py',
+   'DATA'),
+  ('xlwings\\conversion\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\conversion\\__init__.py',
+   'DATA'),
+  ('xlwings\\conversion\\framework.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\conversion\\framework.py',
+   'DATA'),
+  ('xlwings\\conversion\\numpy_conv.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\conversion\\numpy_conv.py',
+   'DATA'),
+  ('xlwings\\conversion\\pandas_conv.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\conversion\\pandas_conv.py',
+   'DATA'),
+  ('xlwings\\conversion\\polars_conv.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\conversion\\polars_conv.py',
+   'DATA'),
+  ('xlwings\\conversion\\standard.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\conversion\\standard.py',
+   'DATA'),
+  ('xlwings\\expansion.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\expansion.py',
+   'DATA'),
+  ('xlwings\\ext\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\ext\\__init__.py',
+   'DATA'),
+  ('xlwings\\ext\\sql.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\ext\\sql.py',
+   'DATA'),
+  ('xlwings\\html\\xlwings-alert.html',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\html\\xlwings-alert.html',
+   'DATA'),
+  ('xlwings\\js\\xlwings.js',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\js\\xlwings.js',
+   'DATA'),
+  ('xlwings\\js\\xlwings.ts',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\js\\xlwings.ts',
+   'DATA'),
+  ('xlwings\\mac_dict.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\mac_dict.py',
+   'DATA'),
+  ('xlwings\\main.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\main.py',
+   'DATA'),
+  ('xlwings\\pro\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\__init__.py',
+   'DATA'),
+  ('xlwings\\pro\\_xlcalamine.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\_xlcalamine.py',
+   'DATA'),
+  ('xlwings\\pro\\_xlofficejs.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\_xlofficejs.py',
+   'DATA'),
+  ('xlwings\\pro\\_xlremote.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\_xlremote.py',
+   'DATA'),
+  ('xlwings\\pro\\caller.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\caller.py',
+   'DATA'),
+  ('xlwings\\pro\\embedded_code.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\embedded_code.py',
+   'DATA'),
+  ('xlwings\\pro\\object_handles.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\object_handles.py',
+   'DATA'),
+  ('xlwings\\pro\\reports\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\reports\\__init__.py',
+   'DATA'),
+  ('xlwings\\pro\\reports\\filters.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\reports\\filters.py',
+   'DATA'),
+  ('xlwings\\pro\\reports\\image.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\reports\\image.py',
+   'DATA'),
+  ('xlwings\\pro\\reports\\main.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\reports\\main.py',
+   'DATA'),
+  ('xlwings\\pro\\reports\\markdown.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\reports\\markdown.py',
+   'DATA'),
+  ('xlwings\\pro\\reports\\pdf.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\reports\\pdf.py',
+   'DATA'),
+  ('xlwings\\pro\\udfs_officejs.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\udfs_officejs.py',
+   'DATA'),
+  ('xlwings\\pro\\utils.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\pro\\utils.py',
+   'DATA'),
+  ('xlwings\\py.typed',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\py.typed',
+   'DATA'),
+  ('xlwings\\quickstart.xlsm',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\quickstart.xlsm',
+   'DATA'),
+  ('xlwings\\quickstart_addin.xlam',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\quickstart_addin.xlam',
+   'DATA'),
+  ('xlwings\\quickstart_addin_ribbon.xlam',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\quickstart_addin_ribbon.xlam',
+   'DATA'),
+  ('xlwings\\quickstart_standalone.xlsm',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\quickstart_standalone.xlsm',
+   'DATA'),
+  ('xlwings\\reports.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\reports.py',
+   'DATA'),
+  ('xlwings\\rest\\__init__.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\rest\\__init__.py',
+   'DATA'),
+  ('xlwings\\rest\\api.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\rest\\api.py',
+   'DATA'),
+  ('xlwings\\rest\\serializers.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\rest\\serializers.py',
+   'DATA'),
+  ('xlwings\\server.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\server.py',
+   'DATA'),
+  ('xlwings\\udfs.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\udfs.py',
+   'DATA'),
+  ('xlwings\\utils.py',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\utils.py',
+   'DATA'),
+  ('xlwings\\xlwings-0.37.8.applescript',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\xlwings-0.37.8.applescript',
+   'DATA'),
+  ('xlwings\\xlwings.bas',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\xlwings.bas',
+   'DATA'),
+  ('xlwings\\xlwings_custom_addin.bas',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\xlwings\\xlwings_custom_addin.bas',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('pythonnet\\runtime\\Python.Runtime.xml',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.xml',
+   'DATA'),
+  ('pythonnet\\runtime\\Python.Runtime.deps.json',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.deps.json',
+   'DATA'),
+  ('markupsafe-3.0.4.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\markupsafe-3.0.4.dist-info\\INSTALLER',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('click-8.5.0.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.9.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\werkzeug-3.1.9.dist-info\\INSTALLER',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\REQUESTED',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\REQUESTED',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\WHEEL',
+   'DATA'),
+  ('markupsafe-3.0.4.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\markupsafe-3.0.4.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('markupsafe-3.0.4.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\markupsafe-3.0.4.dist-info\\METADATA',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('markupsafe-3.0.4.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\markupsafe-3.0.4.dist-info\\RECORD',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.5.0.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('click-8.5.0.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\METADATA',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\INSTALLER',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\METADATA',
+   'DATA'),
+  ('werkzeug-3.1.9.dist-info\\METADATA',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\werkzeug-3.1.9.dist-info\\METADATA',
+   'DATA'),
+  ('werkzeug-3.1.9.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\werkzeug-3.1.9.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('werkzeug-3.1.9.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\werkzeug-3.1.9.dist-info\\WHEEL',
+   'DATA'),
+  ('click-8.5.0.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\RECORD',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\entry_points.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\entry_points.txt',
+   'DATA'),
+  ('markupsafe-3.0.4.dist-info\\WHEEL',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\markupsafe-3.0.4.dist-info\\WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.9.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\werkzeug-3.1.9.dist-info\\RECORD',
+   'DATA'),
+  ('markupsafe-3.0.4.dist-info\\top_level.txt',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\markupsafe-3.0.4.dist-info\\top_level.txt',
+   'DATA'),
+  ('flask-3.1.3.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\flask-3.1.3.dist-info\\RECORD',
+   'DATA'),
+  ('click-8.5.0.dist-info\\RECORD',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\.venv\\Lib\\site-packages\\click-8.5.0.dist-info\\RECORD',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\dovew\\OneDrive - IMA Group\\Documenti\\IMA Calibration '
+   'Wizard\\build\\IMA_Calibration_Wizard\\base_library.zip',
+   'DATA')],
+ 'python313.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
