@@ -33,9 +33,13 @@ RESOURCE_DIRS = [
 ICON_PATH = ROOT_DIR / "icon.ico"
 
 
-# Check for venv
+# Check for proper interpreter and virtual environment before building
+if "conda" not in sys.base_prefix.lower():
+    print("ERROR: Expected a Conda-based Python environment.")
+    sys.exit(1)
+
 if sys.prefix == sys.base_prefix:
-    print("ERROR: Virtual environment not detected. Exiting...")
+    print("ERROR: Activate the project venv first.")
     sys.exit(1)
 
 
