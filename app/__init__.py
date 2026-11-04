@@ -5,7 +5,7 @@ import json
 from calcart1.settings import SS_BY_SECTION
 from calcart1.report import generate_report
 
-def create_app(api, ROOT_DIR, report_names):
+def create_app(api, RESOURCE_DIR, DATA_DIR, report_names):
     # Create and configure the app
     app = Flask(__name__)
 
@@ -94,12 +94,12 @@ def create_app(api, ROOT_DIR, report_names):
 
         # Add the filename to report_names.json, save the report.
         report_names.append(name)
-        report_names_dir = ROOT_DIR/'calcart1'/'report_names.json'
+        report_names_dir = DATA_DIR/'calcart1'/'report_names.json'
         with report_names_dir.open('w') as file: 
             json.dump(report_names, file, indent=4)
 
         filename = f'{name}.json'
-        report_file_dir = ROOT_DIR/'calcart1'/'reports'/filename
+        report_file_dir = DATA_DIR/'calcart1'/'reports'/filename
         with report_file_dir.open('w') as file:
             json.dump(data, file, indent=4)
 
@@ -144,7 +144,7 @@ def create_app(api, ROOT_DIR, report_names):
 
         generate_report(
             api.save_directory,
-            ROOT_DIR,
+            RESOURCE_DIR,
             session['report_dict'],
             session['calibration_dict']
         )
