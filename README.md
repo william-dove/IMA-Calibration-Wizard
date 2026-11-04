@@ -1,10 +1,20 @@
 # IMA Calibration Wizard
 
+## Installation
 
-## To do...
+1. Create a virtual environment and install dependancies.
 
-- Make a "save as" file dialog for when the excel report is generated. This should be as simple as replacing the return statement in the `url_for('calcart1_generate_report')` route, and making it one to save a file. I will have to research how to do this though.
+`python -m venv .venv`
 
-- Once that's complete, pretty much the last thing is compiling this using pycompiler, and I'll have a working product. Future improvements include making a Mycom report/test prodecure, and including the reference offset in the report numbers for the cal cart.
+`.venv\Scripts\activate`
 
-- If I wanted to get really fancy, I could play around with automatically filling out reports for cal cart 2.0, but we'll see...
+`python -m pip install --upgrade pip`
+
+`pip install -r requirements.txt`
+
+
+2. Compile using PyInstaller
+
+`python build.py IMA_Calibration_Wizard`
+
+Second argument is optional app name; do not include `.exe`. New distributions default to the app name above.
