@@ -48,6 +48,8 @@ def initialize_user_data():
 
 if __name__ == "__main__":
 
+    initialize_user_data()
+
     # Load report presets (for calcart)
     report_names_dir = DATA_DIR/'calcart1'/'report_names.json'
     with report_names_dir.open('r') as file:
