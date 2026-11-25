@@ -48,6 +48,9 @@ def generate_report(save_dir, RESOURCE_DIR, report_dict, calibration_dict):
                         # The "standard" column is B60:B70, and the "instrument"
                         # column is C60:C70.
 
+        # Get the reference offset
+        ref_offset = float(calibration_dict['ref_offset'])
+
         # Fill in each row
         for i in range(num_setpoints):
             sp_cell = f'A{report_row + i}'
@@ -55,7 +58,7 @@ def generate_report(save_dir, RESOURCE_DIR, report_dict, calibration_dict):
             dut_cell = f'C{report_row + i}'
 
             ws[sp_cell].value = calibration_dict[f'setpoint[{i+1}]']
-            ws[ref_cell].value = calibration_dict[f'standard[{i+1}]']
+            ws[ref_cell].value = float(calibration_dict[f'standard[{i+1}]']) + ref_offset
             ws[dut_cell].value = calibration_dict[f'instrument[{i+1}]']
 
 
