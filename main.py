@@ -59,13 +59,27 @@ if __name__ == "__main__":
 
     app = create_app(api, RESOURCE_DIR, DATA_DIR, report_names)
 
+    def run():
+        app.run(
+            host="127.0.0.1",
+            port=5000,
+            debug=False,
+            use_reloader=False
+        )
+
     threading.Thread(
-        target=lambda: app.run(),
+        target=run,
         daemon=True
     ).start()
 
     window = webview.create_window("IMA Calibration Wizard", "http://127.0.0.1:5000", js_api=api)
+    # DEBUG
+    #window = webview.create_window("IMA Calibration Wizard", "http://127.0.0.1:5000")
 
-    api.window = window
+    # This likely was breaking everything (theoretically fine in python but causes recursion with pywebview.)
+    #api.window = window
+
+    # Might fix it
+    api._window = window
 
     webview.start()

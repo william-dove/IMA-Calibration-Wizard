@@ -13,7 +13,11 @@ class Api:
 
         Also initializes attributes to be used within calcart1.html.
         '''
-        self.window = None
+        # This was breaking everything. Instead just pass the window when its needed.
+        #self.window = None 
+
+        # Might fix it
+        self._window = None
 
         self.report_complete = False
         self.calibration_complete = False
@@ -30,7 +34,7 @@ class Api:
         Opens a popup to choose a directory where results of the test will
         be saved (excel report, raw data, etc.)
         '''
-        result = self.window.create_file_dialog(
+        result = self._window.create_file_dialog(
             webview.FOLDER_DIALOG
         )
 

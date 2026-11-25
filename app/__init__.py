@@ -26,7 +26,8 @@ def create_app(api, RESOURCE_DIR, DATA_DIR, report_names):
     # ~~~~
 
     @app.route("/")
-    def home():
+    def home(): 
+        print("HOME ROUTE HIT") # Debug
         session.clear() # Clears the session when the user leaves a specific program (e.g. calcart, mycom)
         return render_template("index.html")
 
@@ -36,6 +37,7 @@ def create_app(api, RESOURCE_DIR, DATA_DIR, report_names):
             "calcart1.html",
             report_names=report_names
         )
+
 
     @app.route("/mycom")
     def mycom():
