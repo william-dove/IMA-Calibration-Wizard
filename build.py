@@ -53,7 +53,7 @@ def build():
         "--clean",
 
         "--onefile",
-        #"--windowed", # Disabled for debugging purposes
+        "--windowed", # Disabled for debugging purposes
 
         "--name", APP_NAME,
 
