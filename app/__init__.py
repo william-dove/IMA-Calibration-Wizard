@@ -57,7 +57,8 @@ def create_app(api, RESOURCE_DIR, DATA_DIR, report_names):
     def calcart1_load_form():
         name = request.form['report_name']
 
-        with open(f'calcart1/reports/{name}.json', 'r') as file:
+        report_dir = DATA_DIR/'calcart1'/'reports'/f'{name}.json'
+        with report_dir.open('r') as file:
             data = json.load(file)
 
         # Debug
