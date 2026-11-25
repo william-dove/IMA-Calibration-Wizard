@@ -152,7 +152,10 @@ def create_app(api, RESOURCE_DIR, DATA_DIR, report_names):
             session['calibration_dict']
         )
         
-        return "Making report :)"
+        return render_template(
+            "calcart1_success.html",
+            save_directory=api.save_directory
+        )
 
 
     return app

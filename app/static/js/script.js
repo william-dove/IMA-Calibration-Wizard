@@ -37,10 +37,15 @@ function showStep(stepNumber) {
 
 // Used by addSetpoint() in calcart1_test.html //
 let setpointCount = 1;
+const MAX_SETPOINTS = 10;
 /**
  * This function is used to add new setpoints in /calcart1/test/
  */
 function addSetpoint() {
+
+    if (setpointCount >= MAX_SETPOINTS) {
+        return;
+    }
 
     setpointCount++;
 
@@ -69,6 +74,11 @@ function addSetpoint() {
     `;
 
     container.appendChild(newCard);
+
+    // Disable button when max is reached
+    if (setpointCount >= MAX_SETPOINTS) {
+        document.getElementById("add_setpoint_btn").disabled = true;
+    }
 }
 
 
@@ -95,5 +105,8 @@ async function chooseFolder() {
 }
 
 /**
- * Whenever one of the three steps towards completing 
+ * Closes the app
  */
+async function closeApp() {
+    await window.pywebview.api.close_app();
+}

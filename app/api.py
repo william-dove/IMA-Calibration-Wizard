@@ -46,4 +46,7 @@ class Api:
         self.save_directory = directory
 
         return directory
-    
+
+    def close_app(self):
+        if self._window:
+            self._window.destroy()
